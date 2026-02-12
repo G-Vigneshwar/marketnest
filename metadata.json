@@ -1,0 +1,5 @@
+{
+  "name": "MarketNest",
+  "description": "A mini fashion marketplace connecting brands and customers with role-based access control.",
+  "requestFramePermissions": []
+}
