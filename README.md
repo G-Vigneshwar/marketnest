@@ -157,7 +157,7 @@ The design was adjusted to match the marketplace context.
 
 ## Development Effort
 
-This project took roughly 18–22 focused hours to complete, including:
+This project took roughly 16–18 focused hours to complete, including:
 - Schema design
 - Role-based routing
 - CRUD implementation
