@@ -139,7 +139,32 @@ FOR INSERT WITH CHECK (bucket_id = 'product-images');
 
 ## AI Tools Usage
 
-No AI tools were used in the development of this project. All code was written manually by developers.
+AI tools were used during development for:
+- Initial project structuring guidance
+- Refining documentation wording
+- Reviewing architectural clarity
+
+All implementation decisions, database design, authentication logic, debugging, and testing were manually executed and validated.
+
+## UI & Design
+
+The UI layout and icon patterns were adapted from a previous personal project (a Job Recruitment System).
+This allowed:
+- Faster development
+- Consistent design structure
+- Focus on backend logic and access control
+The design was adjusted to match the marketplace context.
+
+## Development Effort
+
+This project took roughly 18–22 focused hours to complete, including:
+- Schema design
+- Role-based routing
+- CRUD implementation
+- Storage integration
+- UI refinement
+- Testing and deployment
+The development was done in structured phases to keep the architecture clean.
 
 ## Run Locally
 
@@ -164,7 +189,7 @@ No AI tools were used in the development of this project. All code was written m
    npm run dev
    ```
 
-4. Open [http://localhost:5173](http://localhost:5173) in your browser
+4. Open [http://localhost:3000] in your browser
 
 ## Demo Accounts
 
@@ -175,12 +200,14 @@ The database schema includes demo accounts for testing:
 
 ## Deployment
 
+The app is deployed using:
+- Vite production build
+- GitHub repository
+- gh-pages for deployment
+The dist folder is pushed to GitHub Pages.
+
 1. Build the project:
    ```bash
    npm run build
    ```
-
-2. Deploy the `dist` folder to your hosting service (Netlify, Vercel, etc.)
-
-3. Ensure your Supabase project is configured for production use with proper security policies
 
