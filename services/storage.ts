@@ -93,10 +93,7 @@ export const uploadImage = async (options: UploadOptions): Promise<UploadResult>
 
   // Check if Supabase is configured
   if (!isConfigured || !supabase) {
-    // Return a mock URL for demo mode
-    const mockUrl = URL.createObjectURL(file);
-    console.log("ℹ️ Using mock image upload. Update services/db.ts to connect to Supabase for real uploads.");
-    return { success: true, url: mockUrl };
+    return { success: false, error: 'Supabase storage not configured' };
   }
 
   try {
