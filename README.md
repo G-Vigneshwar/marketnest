@@ -2,6 +2,10 @@
 
 MarketNest is a modern marketplace platform that connects independent fashion brands with shoppers. Built with React, TypeScript, and Supabase, it provides a seamless experience for brands to showcase their products and for shoppers to discover unique fashion items.
 
+## Accessing application live on web
+
+https://g-vigneshwar.github.io/marketnest/
+
 ## Features
 
 - **Dual User Roles**: Support for both brands (sellers) and shoppers (buyers)
